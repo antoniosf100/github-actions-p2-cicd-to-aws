@@ -19,6 +19,7 @@ jobs:
   my_ci_part:
    runs-on: ubuntu-latest
    
+   steps  :
      - name : Git clone my repo
        uses : actions/checkout@v1
        
